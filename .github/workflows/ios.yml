@@ -17,7 +17,7 @@ jobs:
         run: |
           cmake               \
               -DCMAKE_SYSTEM_NAME=iOS                                       \
-              -DCMAKE_OSX_ARCHITECTURES="x86_64"                             \
+              -DCMAKE_OSX_ARCHITECTURES="x86_64 arm64"                      \
               -DCMAKE_OSX_DEPLOYMENT_TARGET=9.0                             \
               -Werror=dev                                                   \
               -B build_ios
