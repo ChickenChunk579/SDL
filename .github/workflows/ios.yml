@@ -15,4 +15,4 @@ jobs:
 
       - name: "Build"
         run:
-          sh buildios.sh
+          cd build-scripts && sh buildios.sh
